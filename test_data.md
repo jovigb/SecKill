@@ -1,3 +1,7 @@
+> use go mod
+go mod init
+go mod tidy
+
 > 接入层接口
 ```
 //查询秒杀接口信息
