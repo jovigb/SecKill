@@ -1,6 +1,9 @@
 > use go mod
+```
 go mod init
+
 go mod tidy
+```
 
 > 接入层接口
 ```
