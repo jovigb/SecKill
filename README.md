@@ -1,3 +1,13 @@
+### use go mod
+```
+Can deploy proxy by instruction if packages have been blocked. 
+https://goproxy.cn/
+
+go mod init
+
+go mod tidy
+```
+
 ### SecKill
 > 这是基于Go语言的一个秒杀系统，这个系统分三层，接入层、逻辑层、管理层。
 
