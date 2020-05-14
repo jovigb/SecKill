@@ -1,9 +1,10 @@
 package config
 
 import (
+	"sync"
+
 	"github.com/coreos/etcd/clientv3"
 	"github.com/go-redis/redis"
-	"sync"
 )
 
 const (

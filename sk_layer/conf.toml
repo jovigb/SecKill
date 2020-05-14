@@ -14,12 +14,12 @@ send_to_handle_chan_timeout = 100
 seckill_token_passwd = "fIOxU7iik65vVvBGtNcnrjL4E9MdRpTfzzxE3dx6b7BAHN5etUdSzRW5yjzHzF"
 
 [redis]
-host = "192.168.199.159:6379"
+host = "127.0.0.1:6379"
 password = ""
 db = 0
 proxy2layer_queue_name = "sec_queue"   ### 接入层->逻辑层
 layer2proxy_queue_name = "recv_queue"  ### 逻辑层->接入层
 
 [etcd]
-host = "192.168.199.159:2379"
+host = "127.0.0.1:2379"
 product_key = "sec_kill_product"

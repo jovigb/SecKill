@@ -3,8 +3,8 @@ package controller
 import (
 	"SecKill/sk_proxy/service/srv_sec"
 	"fmt"
-	"github.com/Unknwon/com"
 	"github.com/gin-gonic/gin"
+	"github.com/unknwon/com"
 	"log"
 	"strings"
 	"time"

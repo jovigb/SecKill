@@ -3,8 +3,8 @@ package product
 import (
 	"SecKill/sk_admin/model"
 	"SecKill/sk_admin/service"
-	"github.com/Unknwon/com"
 	"github.com/gin-gonic/gin"
+	"github.com/unknwon/com"
 	"log"
 )
 

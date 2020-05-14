@@ -14,7 +14,7 @@ type SecAdminConf struct {
 
 //数据库配置
 type DbConf struct {
-	DbConn gorose.Connection //链接
+	DbConn *gorose.Connection //链接
 }
 
 //Etcd配置

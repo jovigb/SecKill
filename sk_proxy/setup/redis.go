@@ -3,10 +3,11 @@ package setup
 import (
 	"SecKill/sk_proxy/config"
 	"SecKill/sk_proxy/service/srv_redis"
-	"github.com/Unknwon/com"
-	"github.com/go-redis/redis"
 	"log"
 	"time"
+
+	"github.com/go-redis/redis"
+	"github.com/unknwon/com"
 )
 
 //初始化Redis
