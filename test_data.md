@@ -9,6 +9,14 @@ http://127.0.0.1:8082/sec/list
 //秒杀商品接口
 http://127.0.0.1:8082/sec/kill
 //参数
+Header
+User-Agent: Fiddler
+Host: 127.0.0.1:8082
+Content-Length: 135
+Content-Type: application/x-www-form-urlencoded
+AuthSign: 216a32f67e248fe79f314d80836a87c4
+
+Body
 product_id=1&user_id=1&src=127.0.0.1&auth_code=userauthcode&time=1530928053&nance=dsdsdjkdjskdjksdjhuieurierei&client_refence=127.0.0.1
 ```
 
