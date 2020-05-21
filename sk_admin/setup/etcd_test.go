@@ -11,7 +11,7 @@ import (
 
 func TestInitEtcd(t *testing.T) {
 	cli, err := clientv3.New(clientv3.Config{
-		Endpoints:   []string{"192.168.199.159:2379"},
+		Endpoints:   []string{"127.0.0.1:2379"},
 		DialTimeout: 5 * time.Second,
 	})
 	if err != nil {

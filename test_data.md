@@ -9,12 +9,7 @@ http://127.0.0.1:8082/sec/list
 //秒杀商品接口
 http://127.0.0.1:8082/sec/kill
 //参数
-product_id: 1
-user_id: 1
-src: 192.168.199.1
-auth_code: userauthcode
-time: 1530928164
-nance: dsdsdjkdjskdjksdjhuieurierei
+product_id=1&user_id=1&src=127.0.0.1&auth_code=userauthcode&time=1530928053&nance=dsdsdjkdjskdjksdjhuieurierei&client_refence=127.0.0.1
 ```
 
 > 管理层接口
